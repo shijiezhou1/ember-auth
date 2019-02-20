@@ -1,5 +1,7 @@
-<h3>Login</h3>
+<div class="container mt-3">
+    <h3>Login</h3>
 
-{{input value=loginName placeholder="Login"}}<br>
-{{input value=password placeholder="Password" type="password"}}<br>
-<button {{action "authenticate"}}>#LOGIN#</button>
+    {{input class="my-1" value=loginName placeholder="Login"}}<br>
+    {{input class="my-1" value=password placeholder="Password" type="password"}}<br>
+    <button class="btn btn-primary" {{action "authenticate"}}>#LOGIN#</button>
+</div>

@@ -9,6 +9,7 @@ export default Service.extend({
             url:'/token',
             data:{username:log, password:pass}
         }).then((info) => {
+            console.log(info);
             this.set('token',info.access_token);
         });
     }
