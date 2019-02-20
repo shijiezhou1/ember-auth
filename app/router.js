@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('404', { path: '/*path' }); // REDIRECT TO LOGIN 
+  
   this.route('login');
   this.route('students');
 });

@@ -35,9 +35,7 @@ module.exports = function (app) {
   // mocks.forEach(route => route(app));
   // proxies.forEach(route => route(app));
   app.post('/token', function (req, res) {
-    if (req.body.username === 'root' &&
-      req.body.password === 'toor'
-    ) {
+    if (req.body.username === 'root' && req.body.password === 'root') {
       res.send({ access_token: "secretcode" });
     } else {
       res.status(400).send({ error: "invalid_grant" });
