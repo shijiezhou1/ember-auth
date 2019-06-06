@@ -1,3 +1,8 @@
+# Ember-auth
+
+This README outlines the details of collaborating on this Ember application.
+A short introduction of this app could easily go here.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -13,11 +18,6 @@
   - [Further Reading / Useful Links](#further-reading--useful-links)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Ember-auth
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 
